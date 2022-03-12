@@ -16,4 +16,5 @@ function validateForm()  {
 
              alert("Success!")
 
-             return true;}
+             return true;
+}

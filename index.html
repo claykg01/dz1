@@ -8,18 +8,17 @@
     <body>
         <div>
         <h1>Вход</h1>
-	<div class="form__field">
-		<input type="email" name="name" id="name" placeholder="E-Mail" />
-		<span class="form__error">Это поле должно содержать E-Mail в формате example@gmail.com</span>
-	</div>
-	<div class="form__field">
-		<input type="tel" name="phone" id="phone" placeholder="Телефон" pattern="[\+]\d{3}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="20" />
-		<span class="form__error">Это поле должно содержать телефон в формате +996 (123) 456-78-90</span>
-	</div>
-	   <form onsubmit="return validateForm()">
-
-  <button value="submit">submit</button>
-</form>
+			<div class="form__field">
+				<input type="email" name="name" id="name" placeholder="E-Mail" />
+				<span class="form__error">Это поле должно содержать E-Mail в формате example@gmail.com</span>
+			</div>
+			<div class="form__field">
+				<input type="tel" name="phone" id="phone" placeholder="Телефон" pattern="[\+]\d{3}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="20" />
+				<span class="form__error">Это поле должно содержать телефон в формате +996 (123) 456-78-90</span>
+			</div>
+			<form onsubmit="return validateForm()">
+  				<button value="submit">submit</button>
+			</form>
         </div>
     </body>
 <script src="main.js"></script>
